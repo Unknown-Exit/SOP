@@ -1,0 +1,170 @@
+{
+    "ChatCommands": {
+        "ChatSpamProtMsgIntervalSecs": 5,	//Players can only speak in global chat once each second defined here.
+        "HideIncorrectChatCommands": true,	//Hides non-working chat commands from players.
+        "MsgChatMsgSpamProt": "You must wait {} seconds to write another chat message.",
+        "MsgTryTheseCommands": "Try this instead:<RichColor Color=\"0, 1, 0, 1\">{}</>",
+        "MsgWrongChatCommand": "The command <RichColor Color=\"1, 0, 0, 1\">'{}'</> doesn't exist on this server, and or has formatting errors.",
+        "ValidChatCommands": [	//List of valid chat commands. All your servers chat commands must be in this list for them to properly work.
+            "/buy",
+			"/buykit",
+			"/discord",			
+			"/setdiscord",			
+			"/raidwarning",
+            "/ds",
+            "/dinostats",
+            "/kit",
+            "/shop",
+            "/msgcolour",
+			"/groups",
+            "/namecolour",
+            "/points",
+            "/pm",
+            "/suicide",
+            "/vote",
+			"/claim",
+			"/vrtest",
+			"/vrreload",
+			"/vote",
+            "/r",
+			"/setorp",
+			"/listorp",
+			"/orp"
+        ]
+    },
+    "DinoStatsCommand": {
+        "DinoStatRequiresPermission": false,	//If True, player needs permission "DinoStatsCommand" to use /dinostats command.
+        "MsgFaceDinoInScreen": "Please face the middle of your screen towards the dino you want the base stats of.",
+        "MsgNoDinoStatsPermission": "You don't have required permissions to use DinoStats command"
+    },
+    "General": {
+		"AlwaysBlockTitanTributeUpload": true,		// Always block titan upload to transmitter.
+		"UseDisabledStructureDamageTypes": true,	//Enabling this will disable structure damage from the types defined bellow.
+		"AlwaysDisabledStructureDamageTypes": [
+			"Cannon_SM_C",							//Disables cannon from damaging structures.
+			"Mek_Character_BP_C"					//Disables mek from damaging structures.
+      ]              
+    },
+  "PvpCooldownOptions": {    
+	"Use_Range_Based_CD": true,
+	"PVP_CD_Range": 12500,
+	"Raid_CD_Range": 25000,
+    "AllyPlayerDamageGivesNoCoolDown": true,		//No cooldown for hitting allied players.
+    "AllyStructureDamageGivesNoCoolDown": true,		//No cooldown for hitting allied structures.
+	"Block_Structures_Use_On_CD": true,				//Block using of structures while on cooldown.	
+	"Block_Structures_Use_On_CD_List":[	
+		"Blueprint'/Game/Mods/StructuresPlusMod/Misc/Teleporter/PrimalItemStructure_TeleporterPlus.PrimalItemStructure_TeleporterPlus'",
+		"Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/PrimalItem_AwesomeTeleporter.PrimalItem_AwesomeTeleporter'"
+	],
+	"BlockPlacingNewStructuresOnCD": true,			//Block placing of new structures while on cooldown.	
+	"BlockPlacingNewStructuresOnCD_Ignore_List":[	// Ignore list for structure placing on cooldown.
+		"Blueprint'/Game/Mods/StructuresPlusMod/Misc/SpikeWall/Metal/BP_SpikeWall_Metal.BP_SpikeWall_Metal'",
+		"Blueprint'/Game/PrimalEarth/Structures/BearTrapLarge.BearTrapLarge'",
+		"Blueprint'/Game/PrimalEarth/Structures/BearTrap.BearTrap'"
+	],
+    "BlockStructurePickupWhileOnCD": true,			//Block structures from pickup while cooldown active.
+    "BlockedFromPickupStructures": [				// List of structures to block from pickup/demlish on cd.
+		"S+ Wall",
+		"S+ Large",
+		"S+ XL"
+    ],	
+	"Transmitter_On_Pvp_CD": {						//Transmitter on CD options.
+		"Block_Character_Upload": true,				// Block character upload.
+		"Block_Character_Upload_Only_With_Inventory": true, //Allow character upload with no inventory.
+		"Block_All_Dino_Uploads": true,				// blocks dino uploads on cd.
+		"Block_Item_Uploads": true					// blocks item uploads on cd.
+	},
+	"DisableConfigWeaponListOnPvpCD": true,			// Disable defined weapon types when pvp cooldown active.
+    "BlockedWhilePvpCdWeaponTypes": [				// List of weapon types to block while cooldown is active.
+      "Awesome Teleporter Remote",
+      "SS Demo Gun",
+      "SS Transfer Gun",
+	  "SS Transfer Tool",
+      "SS Repair Gun",
+      "SS Turret Configurator",
+      "SS Remote",
+      "SS Personal Teleporter"
+    ],
+    "DisableCommandsOnPvpCooldown": true,	// Disable defined chat commands while on pvp
+    "PvpDisabledCommands": [				// List of disabled chat commands while pvp cooldown is active.
+      "/suicide",
+      "/shop",
+      "/kit",
+      "/buy"
+    ],
+    "useCDIgnoredStructuresDamageTypes": true,	// If you disable this, every damage event will trigger cooldown, even hitting structure with hands.
+    "IgnoreUnclaimedPlayerDmg": true,			// When player attacked by tamed dinos that are unclaimed, ignore cooldown.
+    "IgnoreUnclaimedStructureDmg": true,  		// When structure attacked by tamed dinos that are unclaimed, ignore cooldown.
+    "PreventPopCornWhileOnCD": true,			// Prevent players from popcorning while cooldown is active.
+	"AllowedItemDropIntervalSec": 3,			// Only allow players to drop items this often. (seconds)
+	"NoPopcornMsgIntervalSec": 2,				// How often to tell player they are blocked from dropping. (seconds)
+	"PopCornMaxStackSize": 500,					// Max stack size players can drop when pvp cooldown is active.
+	"PopCorn_Prevent_BluePrint_Drop": true,		// Always blocks dropping blueprints while pvp cooldown is active.	
+	"PopCornBlock_DROPALL": true,				// Block players from dropping all items while pvp cooldown is active.
+	"MsgExceededPopCornMaxStackSize": "Max stacksize you can throw out is: {} during PvP cooldown.",
+	"MsgPopCornDropAllNotAllowed": "You can not use Drop All during PvP cooldown, please wait {} seconds.",
+	"MsgNoPopcorning": "No popcorn while on PvP CD! Wait {} seconds to drop another item.",
+	"PvpCDAppliedMsgIntervalSec": 20,			// How often the player will get notification of pvp cooldown being applied.
+    "PvpCooldownSeconds": 90,					// Seconds of PvP cooldown to add. Player vs Player
+    "RaidCooldownSeconds": 180,					// Seconds of PvP cooldown to add. Player vs Structure
+	"Structures_Only_Give_CD_Upon_Destroyed": false,	// Only apply cd when structure is destroyed.
+    "TurretsGiveRaidCDTime": true,				// Turret damage applied Raid Cool Down seconds.
+	"MsgChatCommandBlockedInPvp": "The command<RichColor Color=\"1, 0, 0, 1\">'{}'</> is pvp blocked. Remaining pvp cooldown:<RichColor Color=\"1, 0, 0, 1\"> {} Minutes {} Seconds.</>",
+    "MsgChatCommandBlockedInPvpSecLeft": "The command<RichColor Color=\"1, 0, 0, 1\">'{}'</> is pvp blocked. Remaining pvp cooldown: <RichColor Color=\"1, 0, 0, 1\">Only {} Seconds left.</>",
+    "MsgNoPickupWhileOnCD": "{} is blocked from pickup while on PvP cooldown",    
+    "MsgPvpBlockedWeapon": "{} is blocked for another: {} Minutes {} Seconds",
+    "MsgPvpBlockedWeaponSecOnly": "{} is blocked for another: {} Seconds",
+    "MsgPvpCoolDownApplied": "{} minutes {} seconds of PvP cooldown applied.",
+    "MsgPvpCoolDownAppliedMinOnly": "{} minutes of PvP cooldown applied.",
+    "MsgPvpCoolDownAppliedSecOnly": "{} seconds of PvP cooldown applied."
+  },
+    "SuicideCommand": {
+        "CanSuicideWhileUnconscious": false,
+        "CanSuicideWithHandCuffs": false,
+        "MsgAlreadyDead": "You're already dead.",
+        "MsgHandcuffs": "You can't suicide with Handcuffs on.",
+        "MsgNoPermission": "You don't have required permissions to use Suicide command.",
+        "MsgOnDino": "Please get off your dino to use Suicide.",
+        "MsgSitting": "You can't use Suicide command while sitting.",
+        "MsgUnconscious": "You can't use Suicide while unconscious.",
+        "SuicideRequiresPermission": false					// If True, player needs permission "CanSuicide" to use /suicide.
+    },
+	"ORP":{
+		"UseORP": true,
+		"ORP_PVP_CoolDown_Minutes": 5,						// Same as pvp cooldown, but mapwide and only for choosing ORP activation time.
+		"TimeToActivateMinutes": 1,							// Minutes after last player offline to activate ORP normally
+		"TimeToActivateMinutesPvpCoolDown": 90,				// Minutes after last player offline to activate ORP when player logged out while in recent pvp. (combat logged)
+		"TimeInMinutesToFullyActivateORP": 0,				// if value > 0, then ORP will slowly power up over time. Increasing protection and turret dmg.
+		"MaxOrpDurationHours": 120,							// Max hours ORP will last.
+		"Disable_ORP_Dino_Carry": true,
+		"ORP_Damage_Multiplier": 0.0,						// Damage multiplier when ORP is active. 0.2 = 20% damage taken.        0 = 0% damage.
+		"ORP_Damage_Multiplier_Passive_Dinos": 0.0,			// Damage multiplier if a dino is not passive. 0.5 = 50% damage taken.  0 = 0% damage.
+		"ORP_Damage_Multiplier_Non_Passive_Dinos": 0.6,		// Damage multiplier of dinos that's not passive.
+		"ORP_Turret_Damage_Multiplier": 3.0,				// Turret Damage multiplier for active ORP turrets.
+		"ORP_TURRET_DAMAGE_MULTIPLIER_FULLY_ACTIVE": 0.2,	// If slowly powering up ORP, this will be chosen when fully powered.
+		"ORP_Infinite_Turret_Ammo": true,					// Turrets with active ORP has infinite ammo. If ORP slowly activated, this will be on when ORP has reached full prot.
+		"ORP_PassiveDinoTakesNoDamage": false,				// If true will protect passive dinos with inventory too.
+		"Msg_ORP_is_Active": "Your Target Has Active ORP. {}% damage taken.",
+		"Enable_Range_Based_ORP" : true,					// Enables range based ORP, if false it's map wide.
+		"Max_Locations": 2,									// Max ORP locations a tribe can have.
+		"Max_Range": 15000,									// Radius of ORP protection
+		"Discord_ORP_Log_Webhook": "https://discordapp.com/api/webhooks/", // URL of webhook for ORP log.
+		"On_Crash": {
+			"Save_Logout_TimeStamps_Of_Online_Tribes": true,	// If true saves timestamps of online players as if they logged out upon a server crash.
+			"Treat_All_As_RaidLog": false						// If true all timestamps will be saved as if it was raidlog upon crash.
+		},
+		"ORP_Structure": {											// For Maga Structure mod. Do not enable if you don't have the mod.
+			"Use_Maga_Structure_Mod": false,						// if true, uses maga structure mod.
+			"Disable_SetOrp_Command": true,							// if true disables player using /setorp
+			"Remove_ORP_Locations_Without_A_ORP-Structure": true,	// if true removes structures and locations without matching structure upon map start.
+			"Hide_Shield": false,									// Hides the shield bubble.
+			"Required_Radius_From_Enemey_Foundations": 9000,
+			"Max_ORP_In_Range_Radius": 10000
+		}
+	},
+	"On_Baby_Claimed":
+	{
+		"Remove_Wandering": true,		// Removes wandering on claimed babies.
+		"Remove_Ally_Looking": true		// Removes ally look on claimed babies.
+	}
+}

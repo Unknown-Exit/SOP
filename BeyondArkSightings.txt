@@ -1,0 +1,112 @@
+ __**Reward System for Beyond Ark's Sightings and Rare Dinos**__
+
+**In-Game Command:** /rarelist
+
+__**Stronger Dinos to fight!**__
+**Beyond Rare**-- Max level is 2000 (wild)
+**Beyond Super Rare**-- Max level to fight is lvl 5000 (wild)
+
+
+ __**Beyond Rare Rewards**__  
+
+**Minimum Rewards:** 2
+**Maximum Rewards:** 6
+
+**Points:**
+Shop POINTS 100
+Shop POINTS 150
+Shop POINTS 300
+
+**Chance:**
+Game of chance box 100Points
+Game of chance box 700Points
+
+**Commands:**
+Broodmother Beta
+Broodmother Gamma
+Flack Set Low Stats
+Flack Set High Stats
+Hazard Set
+roulette points 2
+Dino Color Tokens
+Give Player XP 100000
+
+**Engrams:**
+Tek Light
+Tek Double Doorframe
+Tek Claws
+Large Tek Wall
+
+**Dino's:**
+LVL 224 Dino's
+
+**Items:**
+1-5 Tier Gear
+
+
+ __**Beyond Super Rare Rewards**__  
+
+**MinRewards:** 4
+**MaxRewards:** 10
+
+**Points:**
+Shop POINTS 100
+Shop POINTS 150
+Shop POINTS 300
+Shop POINTS 400
+Shop POINTS 500
+Shop POINTS 800
+Shop POINTS 1500 
+
+**Chance:**
+Game of chance box 100Points
+Game of chance box 700Points
+Game of chance box 1kPoints 
+Game of chance box 5kPoints  
+Game of chance box 10kPoints   
+Game of chance box 25kPoints      
+
+**Commands:**
+Broodmother Beta
+Broodmother Gamma
+Flack Set Low Stats
+Flack Set High Stats
+Hazard Set
+Tek Suit low stats
+Tek Suit Med Stats
+Tek Suit High stats
+roulette points 2
+Dino Color Tokens
+Give Player XP 100000
+
+**Engrams:**
+Tek sleeping pod
+Rex Tek Saddle
+Tek Forcefield
+Tek Boots
+Tek Chestpiece
+Tek Gauntlets
+Tek Helmet
+Tek Leggings
+Mosasaur Tek Saddle
+Megalodon Tek Saddle
+Cruise Missile
+Tek Foundation
+Tek Hatchframe
+Tek Rifle
+Tek Railgun
+Tek Sensor
+Tek Windowframe
+Unassembled TEK Hover Skiff
+Tek Turret
+Tek Light
+Tek Double Doorframe
+Tek Claws
+Large Tek Wall
+
+**Dino's**
+LVL 224 Dino's
+
+**Items**
+1-5 Tier Gear
+Wooden Club Over Powered

@@ -1,0 +1,9 @@
+Maga ORP Structure mod id: 2031840245
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2031840245
+
+Commands to spawn and destroy all on map..:
+cheat giveitem "Blueprint'/Game/Mods/MagaORP/ORP/PrimalItemStructure_MagaORP.PrimalItemStructure_MagaORP'" 1 0 false
+cheat destroyall StorageBox_MagaShield_C
+
+engram: EngramEntry_MagaORP_C

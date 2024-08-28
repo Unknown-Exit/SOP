@@ -1,0 +1,38 @@
+__**Beyond Ark //Update**__
+
+
+
+**Dino:**
+Ceratosaurus Damage % has been buffed 
+Ceratosaurus Heal Amount Buffed
+Ceratosaurus Heal per tick Buffed
+Ceratosaurus Heal Radius Buffed
+
+**Ark Shop:**
+Added Sinomacrops--Under catagory Shoulder Pets
+Added Ceratosaurus Under catagory Dino
+Added R Ceratosaurus Under catagory Dino
+Added Ceratosaurus Saddle Blueprint
+Added Ceratosaurus Saddle
+Added Awsome SpyGlass to catagory Items
+
+**Stack Sizes:**
+Heavy Turret Nerffed from 100 Slots to 10 Slots
+Auto Turret Nerffed from 100 to 10 Slots
+ARB Incressed from 100 to 1000
+Raw Meat Incressed from 200 to 10000
+Raw Fish Meat Incressed from 200 to 10000
+Raw Prime Meat Incressed from 200 to 10000
+Meat Incressed from 200 to 10000
+Fish Meat Incressed from 200 to 10000
+Prime Meat Incressed from 200 to 10000
+
+
+
+**Questions?** *Feel free to open up a @support ticket and ask away :D*
+
+***Give a Big Thanks to our @beyondarkstaff Team for this update.***
+
+@everyone
+
+

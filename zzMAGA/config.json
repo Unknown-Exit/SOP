@@ -1,0 +1,236 @@
+{
+    "ChatCommands": {
+        "ChatSpamProtMsgIntervalSecs": 5,
+        "HideIncorrectChatCommands": true,
+        "MsgChatMsgSpamProt": "You must wait {} seconds to write another chat message.",
+        "MsgTryTheseCommands": "Try this instead:<RichColor Color=\"0, 1, 0, 1\">{}</>",
+        "MsgWrongChatCommand": "The command <RichColor Color=\"1, 0, 0, 1\">'{}'</> doesn't exist on this server, and or has formatting errors.",
+        "ValidChatCommands": [
+            "/buy",
+			"/buykit",
+			"/discord",			
+			"/setdiscord",			
+			"/raidwarning",			
+            "/ds",
+            "/dinostats",
+            "/kit",
+            "/shop",
+            "/msgcolour",
+			"/groups",
+            "/namecolour",
+            "/points",
+            "/pm",
+            "/suicide",
+            "/vote",
+			"/claim",
+			"/vrtest",
+			"/vrreload",
+			"/vote",
+            "/r",
+			"/setorp",
+			"/listorp",
+			"/orp"
+        ]
+    },
+	"Cheat_Preventions": {
+        "Prevent_Client_From_Spawning_Dinos": true,
+        "Client_Dino_Spawn_Warning_Webhook": ""
+    },
+    "DinoStatsCommand": {
+        "DinoStatRequiresPermission": false,
+        "MsgFaceDinoInScreen": "Please face the middle of your screen towards the dino you want the base stats of.",
+        "MsgNoDinoStatsPermission": "You don't have required permissions to use DinoStats command"
+    },
+	"AutoFarm": {
+		"Enabled": true,
+		"Allow_Tek_Skiff": true,
+		"Interval_In_Milliseconds": 500,
+		"Tribe_Online_Members_Limit": 1,
+		"Requires_Permission_Group": true,
+		"Permission_Groups": [
+			"group1",
+			"group2"
+		]
+	},
+	"NetGun_Options": {
+		"Block_NetGun_Hitting_Player_Characters": false,
+		"Only_Allow_NetGun_On_Wild_Creatures": false
+	},
+	"NetGun_Block_List": [
+		"Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
+		"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
+	],	
+    "General": {
+		"Block_TekBow_StructureDamage": true,
+		"Block_TekBow_Tranq_On_Players": false,
+		"Block_TekBow_Tranq_On_Tamed_Dinos": false,
+		"Block_Tek-Dolphin_StructureDamage": true,
+		"Block_All_Building_In_Caves": false,
+		"UseDisabledStructureDamageTypes": true,
+		"AlwaysBlockTitanTributeUpload": true,
+		"Battery_Powered_Turret_Damage_Multiplier_Outside_ORP": 1.0,
+		"AlwaysDisabledStructureDamageTypes": [
+			"Cannon_SM_C",
+			"Mek_Character_BP_C"
+      ]              
+    },
+	"Structure_Settings":{
+		"Blocked_In_Cave_Structures": [
+		
+		]
+	},
+	"Buff_Adjusters": {
+		"Player_Bola_Duration": 30.0,
+		"Dino_Bola_Duration_Tamed": 30.0,
+		"Dino_Bola_Duration_Wild": 30.0,
+		"Player_Net_Duration": 60.0,
+		"Player_Net_Cooldown": 30.0,
+		"Dino_Net_Duration_Tamed": 60.0,
+		"Dino_Net_Duration_Wild": 60.0,
+		"Dino_Net_Cooldown_Tamed": 30.0,
+		"Dino_Net_Cooldown_Wild": 30.0
+  },
+  "PvpCooldownOptions": {    
+	"Use_Range_Based_CD": true,
+	"PVP_CD_Range": 12500,
+	"Raid_CD_Range": 25000,
+	"Enable_Pvp_Cd_Buff": true,
+	"PvpCooldownSeconds": 90,
+    "RaidCooldownSeconds": 180,
+	"ServerJoinCooldownSeconds": 0,
+	"Teleport_Adds_Cd_When_Tribe_Mates_Nearby_Has_Cd": true,
+	"Teleport_Adds_Cd_When_Teleporting_To_Last_Cd_Location_Within_x2_RaidCD": true,
+	"Being_Controlled_By_Noglin_Counts_As_Pvp_Cd": true,
+    "Being_Knocked_Out_Counts_As_Pvp_Cd": true,
+    "Being_Handcuffed_Counts_As_Pvp_Cd": true,
+	"Item_Drop_Decay_Multiplier": 15.0,
+    "AllyPlayerDamageGivesNoCoolDown": true,
+    "AllyStructureDamageGivesNoCoolDown": true,
+	"Block_Broadcasting_Turret_Settings": true,
+	"Block_Structures_Use_On_CD": true,
+	"Block_Structures_Use_On_CD_List":[
+		"Blueprint'/Game/Mods/StructuresPlusMod/Misc/Teleporter/PrimalItemStructure_TeleporterPlus.PrimalItemStructure_TeleporterPlus'",
+		"Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/PrimalItem_AwesomeTeleporter.PrimalItem_AwesomeTeleporter'"
+	],
+	"BlockPlacingNewStructuresOnCD": true,
+	"BlockPlacingNewStructuresOnCD_Block_List":[
+		"Blueprint'/Game/Mods/StructuresPlusMod/Misc/SpikeWall/Metal/BP_SpikeWall_Metal.BP_SpikeWall_Metal'",
+		"Blueprint'/Game/PrimalEarth/Structures/BearTrapLarge.BearTrapLarge'",
+		"Blueprint'/Game/PrimalEarth/Structures/BearTrap.BearTrap'"
+	],
+	"BlockPlacingNewStructuresOnCD_Exemptions_List":[
+	],
+    "BlockStructurePickupWhileOnCD": true,
+	"BlockUploadingTributeItems": false,
+    "BlockedFromPickupStructures": [
+		"S+ Wall",
+		"S+ Large",
+		"S+ XL"
+    ],	
+	"Transmitter_On_Pvp_CD": {
+		"Block_Character_Upload": true,
+		"Block_Character_Upload_Only_With_Inventory": true,
+		"Block_All_Dino_Uploads": true,
+		"Block_Item_Uploads": true
+	},
+	"DisableConfigWeaponListOnPvpCD": true,
+    "BlockedWhilePvpCdWeaponTypes": [
+      "Awesome Teleporter Remote",
+      "SS Demo Gun",
+      "SS Transfer Gun",
+	  "SS Transfer Tool",
+      "SS Repair Gun",
+      "SS Turret Configurator",
+      "SS Remote",
+      "SS Personal Teleporter"
+    ],
+    "DisableCommandsOnPvpCooldown": true,
+    "PvpDisabledCommands": [
+      "/suicide",
+      "/shop",
+      "/kit",
+      "/buy"
+    ],
+    "useCDIgnoredStructuresDamageTypes": true,
+    "IgnoreUnclaimedPlayerDmg": true,
+    "IgnoreUnclaimedStructureDmg": true,  
+    "PreventPopCornWhileOnCD": true,
+	"Popcorn_Item_Exemptions": [
+		"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'",
+		"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone'"
+	],
+	"AllowedItemDropIntervalSec": 3,
+	"NoPopcornMsgIntervalSec": 2,
+	"PopCornMaxStackSize": 500,
+	"PopCorn_Prevent_BluePrint_Drop": true,
+	"PopCornBlock_DROPALL": true,
+	"MsgExceededPopCornMaxStackSize": "Max stacksize you can throw out is: {} during PvP cooldown.",
+	"MsgPopCornDropAllNotAllowed": "You can not use Drop All during PvP cooldown, please wait {} seconds.",
+	"MsgNoPopcorning": "No popcorn while on PvP CD! Wait {} seconds to drop another item.",
+	"PvpCDAppliedMsgIntervalSec": 20,    
+	"Structures_Only_Give_CD_Upon_Destroyed": false,
+    "TurretsGiveRaidCDTime": true,
+	"MsgChatCommandBlockedInPvp": "The command<RichColor Color=\"1, 0, 0, 1\">'{}'</> is pvp blocked. Remaining pvp cooldown:<RichColor Color=\"1, 0, 0, 1\"> {} Minutes {} Seconds.</>",
+    "MsgChatCommandBlockedInPvpSecLeft": "The command<RichColor Color=\"1, 0, 0, 1\">'{}'</> is pvp blocked. Remaining pvp cooldown: <RichColor Color=\"1, 0, 0, 1\">Only {} Seconds left.</>",
+    "MsgNoPickupWhileOnCD": "{} is blocked from pickup while on PvP cooldown",    
+    "MsgPvpBlockedWeapon": "{} is blocked for another: {} Minutes {} Seconds",
+    "MsgPvpBlockedWeaponSecOnly": "{} is blocked for another: {} Seconds",
+    "MsgPvpCoolDownApplied": "{} minutes {} seconds of PvP cooldown applied.",
+    "MsgPvpCoolDownAppliedMinOnly": "{} minutes of PvP cooldown applied.",
+    "MsgPvpCoolDownAppliedSecOnly": "{} seconds of PvP cooldown applied."
+  },
+    "SuicideCommand": {
+        "CanSuicideWhileUnconscious": false,
+        "CanSuicideWithHandCuffs": false,
+        "MsgAlreadyDead": "You're already dead.",
+        "MsgHandcuffs": "You can't suicide with Handcuffs on.",
+        "MsgNoPermission": "You don't have required permissions to use Suicide command.",
+        "MsgOnDino": "Please get off your dino to use Suicide.",
+        "MsgSitting": "You can't use Suicide command while sitting.",
+        "MsgUnconscious": "You can't use Suicide while unconscious.",
+        "SuicideRequiresPermission": false
+    },
+	"ORP":{
+		"UseORP": true,
+		"Disable_Orp_In_Caves": false,
+		"ORP_PVP_CoolDown_Minutes": 5,
+		"TimeToActivateMinutes": 15,
+		"TimeToActivateMinutesPvpCoolDown": 90,
+		"TimeInMinutesToFullyActivateORP": 0,
+		"Required_Structures_Nearby_For_Orp": 20,
+		"Required_Structures_Nearby_For_Orp_Radius": 1000,
+		"MaxOrpDurationHours": 120,
+		"Disable_ORP_Dino_Carry": true,
+		"ORP_Damage_Multiplier": 0.0,
+		"ORP_Damage_Multiplier_Passive_Dinos": 0.0,
+		"ORP_Damage_Multiplier_Non_Passive_Dinos": 0.6,
+		"ORP_Turret_Damage_Multiplier": 3.0,
+		"ORP_TURRET_DAMAGE_MULTIPLIER_FULLY_ACTIVE": 0.2,
+		"ORP_Infinite_Turret_Ammo": true,
+		"ORP_PassiveDinoTakesNoDamage": false,
+		"Msg_ORP_is_Active": "Your Target Has Active ORP. {}% damage taken.",
+		"Enable_Range_Based_ORP" : true,
+		"Max_Locations": 2,
+		"Max_Range": 15000,
+		"Discord_ORP_Log_Webhook": "https://discordapp.com/api/webhooks/690913/3Flif5MSNSr3-2jn316FH4HeofA5O8fyzyQM42uZ8jAloWLPhaNUNcK-BB",
+		"On_Crash": {
+			"Save_Logout_TimeStamps_Of_Online_Tribes": true,
+			"Treat_All_As_RaidLog": false
+		},
+		"ORP_Structure": {
+			"Use_Maga_Structure_Mod": false,
+			"Disable_SetOrp_Command": true,
+			"Remove_ORP_Locations_Without_A_ORP-Structure": true,
+			"Hide_Shield": false,
+			"Required_Radius_From_Enemey_Foundations": 9000,
+			"Max_ORP_In_Range_Radius": 10000,
+			"Structure_Health": 10000
+		}
+	},
+	"On_Baby_Claimed":
+	{
+		"Set_Passive": true,
+		"Remove_Following": true,
+		"Remove_Ally_Looking": true
+	}
+}

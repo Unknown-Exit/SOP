@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOP AI-Powered Search</title>
+</head>
+<body>
+    <h1>SOP AI-Powered Search</h1>
+    <input type="text" id="searchBox" placeholder="Ask a question..." />
+    <button onclick="askQuestion()">Search</button>
+    <div id="results"></div>
+
+    <script>
+        async function askQuestion() {
+            const query = document.getElementById('searchBox').value;
+            const response = await fetch('http://localhost:5000/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ question: query })
+            });
+            const result = await response.json();
+            document.getElementById('results').innerHTML = `<h3>Answer:</h3><p>${result.answer}</p>`;
+        }
+    </script>
+</body>
+</html>
